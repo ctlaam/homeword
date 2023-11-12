@@ -301,3 +301,8 @@ button {
   justify-content: center;
   text-align: center;
 }
+
+
+.grid-container2 .last-child1 {
+    border-right: 1px solid ;
+}
