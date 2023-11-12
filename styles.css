@@ -20,7 +20,6 @@ html {
   grid-template-rows: 100px auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  height: 40%;
   padding: 20px;
   border-spacing: 5px;
   margin: 1vh auto;
@@ -44,6 +43,7 @@ html {
   box-sizing: border-box;
   position: relative;
   margin: -2px;
+  height: 100%;
 }
 .grid-item1 {
   padding: 20px;
@@ -93,7 +93,7 @@ html {
   height: 110%;
 }
 .item-card {
-    min-height: 50%;
+    min-height: 400px;
 }
 .item-card strong {
     color: #b66fda;
